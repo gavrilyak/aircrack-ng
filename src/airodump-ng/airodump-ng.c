@@ -7199,8 +7199,8 @@ int main(int argc, char * argv[])
 
 			if (ioctl(0, TIOCGWINSZ, &(lopt.ws)) < 0)
 			{
-				lopt.ws.ws_row = 25;
-				lopt.ws.ws_col = 80;
+				lopt.ws.ws_row = 50;
+				lopt.ws.ws_col = 120;
 			}
 
 			/* display the list of access points we have */
