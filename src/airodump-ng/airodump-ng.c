@@ -7199,7 +7199,7 @@ int main(int argc, char * argv[])
 
 			if (ioctl(0, TIOCGWINSZ, &(lopt.ws)) < 0)
 			{
-				lopt.ws.ws_row = 50;
+				lopt.ws.ws_row = 200;
 				lopt.ws.ws_col = 120;
 			}
 
